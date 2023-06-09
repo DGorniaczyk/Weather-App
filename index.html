@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2da4082404.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-name">
+        <h1 class="mainName">WHEATHER APP</h1>
+    </div>
+    <div class="searching">
+        <i class="fas fa-sharp fa-regular fa-city city"></i>
+        <input type="text" class="search-input" placeholder="Enter City Name">
+        <i class="fas fa-regular fa-magnifying-glass search" ></i>
+    </div>
+    <div class="basic-info">
+        <h1 class="city-name">CITY</h1>
+        <p class="temperature">TEMPERATURE</p>
+        <p class="temperature-value">-°C</p>
+    </div>
+    <div class="additional-info">
+        <div class="additional-info-element vis-container">
+            <p class="info-name">VISUALISATION</p>
+            <i class="fas fa-sharp fa-light fa-sun wheather-icon"></i>
+        </div>
+        <div class="additional-info-element">
+            <p class="info-name">WHEATHER</p>
+            <p class="value-text-weather">-</p>
+        </div>
+        <div class="additional-info-element">
+            <p class="info-name">HUMIDITY</p>
+            <p class="value-text-humidity">-</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

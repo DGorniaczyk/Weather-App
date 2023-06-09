@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, blue, azure);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: 'helvetica';
+}
+
+
+.mainName{
+    color: azure;
+}   
+
+.searching{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+    font-size: 21px;
+    padding: 50px;
+}
+
+.city{
+    padding: 5px;
+    color: azure;
+}
+
+.search-input{
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: azure;
+    border-bottom: 2px solid azure;
+}
+
+.search{
+    padding: 5px;
+    color: azure;
+    
+}
+
+.basic-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    color: azure;
+}
+
+.additional-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.additional-info-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: azure;
+    padding: 100px;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+
+  ::placeholder{
+    color: azure;
+  }
